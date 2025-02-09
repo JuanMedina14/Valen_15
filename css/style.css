@@ -45,7 +45,6 @@ main {
   background-color: #272727;
   text-align: center;
   border-bottom: 3px solid #ee2a44;
-  z-index: 1;
 }
 
 
@@ -82,16 +81,13 @@ main {
   left: 15%;
   top: 101%;
   position: absolute;
-  z-index: 0;
 }
 
 .icono2{
   height: 12%;
   left: 70%;
-  top: 128%;
+  top: 145%;
   position: absolute;
-  z-index: 0;
-
 }
 
 
