@@ -77,17 +77,21 @@ main {
 }
 
 .icono1{
-  height: 6%;
-  left: 15%;
-  top: 101%;
+  width: 40%;
+  background-size: cover;
+  
   position: absolute;
+  opacity: 0.2;
+  z-index: 0;
 }
 
 .icono2{
-  height: 12%;
-  left: 70%;
-  top: 145%;
+  width: 100%;
+  background-size: cover;
+  
   position: absolute;
+  opacity: 0.2;
+  z-index: 0;
 }
 
 
