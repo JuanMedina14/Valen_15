@@ -27,7 +27,7 @@ html {
  }
 
 body {
-  background: url(../img/fot.jpg);
+  background: url(../img/portada.jpg);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -88,7 +88,6 @@ main {
 .icono2{
   width: 100%;
   background-size: cover;
-  
   position: absolute;
   opacity: 0.2;
   z-index: 0;
@@ -102,6 +101,7 @@ main {
   align-items: center;
   height: 80vh;
   gap: 0px 20px;
+  
 }
 
 .ceremonia__item1,
@@ -118,6 +118,8 @@ main {
 .ceremonia__icono {
   width: 35%;
   margin-bottom: -25px;
+  z-index: 1;
+
 }
 
 h3 {
@@ -125,6 +127,8 @@ h3 {
   font-family: "Dancing Script", cursive;
   color: #ee2a44;
   margin-bottom: 20px;
+  z-index: 1;
+
 }
 
 .ceremonia__text {
@@ -132,21 +136,27 @@ h3 {
   padding: 10px 10px;
   font-size: 1.2rem;
   font-family: 'Ysabeau', sans-serif;
+  z-index: 1;
+
 }
 
 .ceremonia__mapa {
   margin-top: 30px;
+  background-color: #ffffff;
   padding: 10px 20px;
   border: #597ee2 1px solid;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #ee2a44 ;
   transition: 0.5s;
+  z-index: 1;
 }
 
 .ceremonia__mapa:hover {
   background-color:  #ee2a44;
   color: #fff;
   box-shadow: none;
+  z-index: 1;
+
 }
 
 
@@ -258,7 +268,6 @@ h3 {
 .icono3{
   width: 100%;
   background-size: cover;
-  
   position: absolute;
   opacity: 0.2;
   z-index: 0;
@@ -651,6 +660,7 @@ form textarea:focus {
     padding-top: 115px;
     height: 480px;
     row-gap: 3%;
+    z-index: 1;
   }
 
   .ceremonia__item1 {
